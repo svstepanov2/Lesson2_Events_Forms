@@ -1,0 +1,62 @@
+.slider-container {
+	position: relative;
+	margin: auto;
+	height: 400px;
+	width: 600px;
+}
+
+.slider-item {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+.slider-container .prev-btn {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.slider-container .next-btn {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.slider-container .nav-dots {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.slider-container .nav-dots .dot {
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.slider-container .nav-dots .dot:hover {
+	background-color: white;
+	color: black;
+}
